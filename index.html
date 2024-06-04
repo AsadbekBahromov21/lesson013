@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="navbar__logo">
+                <img src="./images/navbar_logo.png" alt="">
+                </div>
+                <div class="navbar__icon">
+                    <i class="fa-solid fa-book-open"></i> 
+                </div>
+                <div class="navbar__inp">
+                   <form action="">
+                       <input required placeholder="Ya ishi" type="text">
+                       <button>Nayti</button>
+                   </form>
+                </div>
+                <div class="navbar__icon">
+                    <i class="fa-solid fa-arrow-down-z-a"></i>
+                </div>
+                <div class="navbar__icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="navbar__icon activ">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                </div>
+                <div onclick="toggleShow()" class="navbar__menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero__wrapper">
+                    <div class="hero__box">
+
+                        <button>Mesya Krasnix sen</button>
+                        <button style="font-weight: 200; background: #F0F4F7;">Iz Kitaya </button>
+                    </div>
+               
+                <div class="hero__btr">
+                    <button style="background: transparent; border: 1px solid #ddd;">Chilonzor tumani <i class="fa-solid fa-location-dot"></i></button>
+                    <button style="background: transparent; border: 1px solid #ddd;">RU</button>
+                    <button>UZB</button>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="section" id=" section">
+            <div class="container">
+                <div class="section__carusel">
+                    <div class="section__slider">
+                        <img src="./images/image.png" alt="">
+                        <div class="section__content">
+                            <b>SOTISH BOSHLANDI</b>
+                            <p>Ajoyib narxlarda xarid qilish vaqti keldi</p>
+                            <button>Korish ></button>
+
+                        </div>
+                    </div>
+                    <div class="section__slider">
+                        <img src="./images/hero.jpg" alt="">
+                        <div class="section__content">
+                            <b>90% gacha Chegirmalar</b>
+                            <p>Maksimal foyda shu erda yashaydi</p>
+                            <button>Qarang></button>
+                        </div>
+
+                    </div>
+                     <div class="section__slider">
+                         <img src="./images/hero1.jpg" alt="">
+                         <div class="section__content">
+                            <b>AJOYIB TOPLAMLAR</b>
+                            <p>Dokondan chegirma va kuponlar</p>
+                            <button>Korish ></button>
+                        </div>
+                        </div>
+                        <div class="section__slider">
+                            <img src="./images/hero2.jpg" alt="">
+                            <div class="section__content">
+                                <b>YONISH MAXSULOTLARI</b>
+                                <p>Har qanday lazzat va rang uchun</p>
+                                <button>Korish ></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__text">
+                        <p>Sotish</p><hr>
+                        <p>Top maxsulotlar</p><hr>
+                        <p>Sz uchun tavsiya etiladi</p>
+                        
+                    </div>
+            </div>
+        </section>
+        <section class="block" id="block">
+            <div class="container">
+                <div class="block__wrapper">
+                    <div class="block__box">
+                        <div class="block__foto">
+                            <img src="./images/chotka.jpg" alt="">
+                            <img src="./images/chotka.jpg" alt="">
+                            <img src="./images/chotka.jpg" alt="">
+                            <img src="./images/chotka.jpg" alt="">
+                            <img src="./images/chotka.jpg" alt="">
+                        </div>
+                        <div class="block__content">
+                            <p>Lorem, ipsum dolor Lorem, ipsum..</p>
+                            <p>100 $</p>
+                            <s>183.246.12UZS</s>
+                            <b>-47%</b>
+                            <p style="font-size: 20px; font-weight: 900; color: red;">96 756.34 UZS</p>
+                        </div>
+                    </div>
+                    <div class="block__box">
+                        <div class="block__foto">
+                            <img src="./images/block3.jpg" alt="">
+                            <img src="./images/chotka.jpg" alt="">
+                            <img src="./images/block3.jpg" alt="">
+                            <img src="./images/chotka.jpg" alt="">
+                            <img src="./images/block3.jpg" alt="">
+                        </div>
+                        <div class="block__content">
+                            <p>Lorem, ipsum dolor Lorem, ipsum..</p>
+                            <p>100 $</p>
+                            <s>183.246.12UZS</s>
+                            <b>-47%</b>
+                            <p class="actic" style="font-size: 20px; font-weight: 900; color: red;">96 756.34 UZS</p>
+                        </div>
+                    </div>
+                    <div class="block__box">
+                        <div class="block__foto">
+                            <img src="./images/block__.jpg" alt="">
+                            <img src="./images/block__1.jpg" alt="">
+                            <img src="./images/block__.jpg" alt="">
+                            <img src="./images/block__2.jpg" alt="">
+                            <img src="./images/block__2.jpg" alt="">
+                        </div>
+                        <div class="block__content">
+                            <p>Lorem, ipsum dolor Lorem, ipsum..</p>
+                            <p>100 $</p>
+                            <s>183.246.12UZS</s>
+                            <b>-47%</b>
+                            <p style="font-size: 20px; font-weight: 900; color: red;">96 756.34 UZS</p>
+                        </div>
+                    </div>
+                    <div class="block__box">
+                        <div class="block__foto">
+                            <img src="./images/cart.jpg" alt="">
+                            <img src="./images/cart.jpg" alt="">
+                            <img src="./images/cart.jpg" alt="">
+                            <img src="./images/cart.jpg" alt="">
+                            <img src="./images/cart.jpg" alt="">
+                        </div>
+                        <div class="block__content">
+                            <p>Lorem, ipsum dolor Lorem, ipsum..</p>
+                            <p>100 $</p>
+                            <s>183.246.12UZS</s>
+                            <b>-47%</b>
+                            <p style="font-size: 20px; font-weight: 900; color: red;">96 756.34 UZS</p>
+                        </div>
+                    </div>
+                    <div class="block__box">
+                        <div class="block__foto">
+                            <img src="./images/block1.jpg" alt="">
+                            <img src="./images/block2.jpg" alt="">
+                            <img src="./images/block4.jpg" alt="">
+                            <img src="./images/block3.jpg" alt="">
+                            <img src="./images/block4.jpg" alt="">
+                        </div>
+                        <div class="block__content">
+                            <p>Lorem, ipsum dolor Lorem, ipsum..</p>
+                            <p>100 $</p>
+                            <s>183.246.12UZS</s>
+                            <b>-47%</b>
+                            <p style="font-size: 20px; font-weight: 900; color: red;">96 756.34 UZS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/app.js"></script>
+</body>
+</html>

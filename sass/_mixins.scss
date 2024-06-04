@@ -1,0 +1,12 @@
+@mixin button(){
+    padding: 10px 100px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background:#F53838;
+    a{
+        font-size: 16px;
+        font-weight: 700;
+        color: #ffff;
+    }
+}

@@ -1,0 +1,35 @@
+.hero{
+    width: 100%;
+    
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    &__box{
+        button{
+            padding: 6px 19px;
+            border: none;
+            border-radius: 6px;
+            color: #000;
+            font-weight: 900;
+            background: #FFFF61;
+        }
+    }
+    &__btr{
+           button{
+            padding: 8px 19px;
+            border: none;
+            border-radius: 6px;
+            color: #000;
+           }
+    }
+}
+@media (max-width:600px) {
+    .hero{
+        &__btr{
+            display: none;
+        }
+    }
+    
+}

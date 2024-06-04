@@ -1,0 +1,149 @@
+.section{
+    &__carusel{
+        display: grid;
+        gap: 6px;
+        overflow-x: auto;
+        scrollbar-width: none;
+        grid-template-columns: repeat(4, 1fr);
+        // margin-bottom: 40px;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+    }
+    &__slider{
+        width: 1248px;
+        height:500px;
+        // overflow: hidden;
+       
+    }
+    &__content{
+        margin-top: -300px;
+        padding-left: 80px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        b{
+            max-width: 350px;
+            font-size: 46px;
+            font-weight: 900;
+            
+        }
+        p{
+            max-width: 350px;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        button{
+            @include button();
+            background: #000;
+            font-size: 18px;
+            color: #fff;
+            margin-top: 24px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    &__text{
+        display: inline-block;
+        display: flex;
+        gap: 15px;
+        margin-top: -60px;
+        p{
+            font-size: 18px;
+            font-weight: 800;
+            &:hover{
+                color: #bbb0b0;
+                cursor: pointer;
+            }
+        }
+    
+    }
+}
+
+@media (max-width:800px) {
+    .section{
+        &__slider{
+            width: 1248px;
+            height:500px;
+            // overflow: hidden;
+           
+        }
+        &__content{
+            margin-top: -300px;
+            padding-left: 80px;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            b{
+                max-width: 350px;
+                font-size: 44px;
+                font-weight: 900;
+                
+            }
+            p{
+                max-width: 350px;
+                font-size: 16px;
+                font-weight: 400;
+            }
+            button{
+                @include button();
+                background: #000;
+                font-size: 18px;
+                color: #fff;
+                margin-top: 24px;
+            }
+        }
+    }
+    
+}
+@media (max-width:500px) {
+    .section{
+        &__slider{
+            width: 1248px;
+            height:500px;
+            // overflow: hidden;
+           
+        }
+        &__content{
+            width: 100%;
+            margin-top: -200px;
+            padding-left: 10px;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            b{
+                max-width: 100%;
+                font-size: 38px;
+                font-weight: 800;
+                
+            }
+            p{
+                max-width: 100%;
+                font-size: 15px;
+                font-weight: 400;
+            }
+            button{
+             display: none;
+            }
+        }
+        &__text{
+            display: inline-block;
+            display: flex;
+            gap: 8px;
+            margin-top: -60px;
+            p{
+                font-size: 14px;
+                font-weight: 700;
+                &:hover{
+                    color: #bbb0b0;
+                    cursor: pointer;
+                }
+            }
+        
+        }
+    }
+    
+}
